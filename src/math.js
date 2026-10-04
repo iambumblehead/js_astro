@@ -72,3 +72,13 @@ function calChebyshevPolynomial(x, coefs) {
 
 	return y;
 }
+
+export {
+  atan24deg,
+  acos4deg,
+  tan4deg,
+  deg2rad,
+  cos4deg,
+  sin4deg,
+  mod360
+}

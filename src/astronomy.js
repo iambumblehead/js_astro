@@ -1,3 +1,8 @@
+import {
+  deg2rad,
+  cos4deg
+} from './math.js'
+
 /*
  * Astronomical calculation scripts version 0.22j
  * Copyright (c) 1999-2001, 2004, 2005, 2017, 2021, 2024, 2025 Yoshihiro Sakai & Sakai Institute of Astrology
@@ -498,4 +503,10 @@ function encodeDate(ye, mo, da){
 
 function encodeTime(ho, mi){
 	return ho * 100 + mi;
+}
+
+export {
+  calJD,
+  calLST,
+  calOblique
 }
