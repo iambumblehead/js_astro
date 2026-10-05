@@ -3,8 +3,21 @@ import {
   deg2rad,
   sin4deg,
   cos4deg,
-  mod360
+  mod360,
+  calChebyshevPolynomial
 } from './math.js'
+
+import {
+  calJD,
+  calLST,
+  correctTDT,
+  calTimeCoefficient,
+  convertGeocentric,
+  convertOrbitalElement,
+  orbitWork,
+  calOblique,
+  calNutation
+} from './astronomy.js'
 
 /*
  * Celestial position calculation engine "Hapy Hekichan" version 1.00-j08
@@ -1162,5 +1175,6 @@ function calAfterLunarReturn{
 */
 
 export {
-  calGeoPoint
+  calGeoPoint,
+  calPlanetPosition2
 }

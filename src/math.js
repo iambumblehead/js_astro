@@ -74,6 +74,8 @@ function calChebyshevPolynomial(x, coefs) {
 }
 
 export {
+  calChebyshevPolynomial,
+  asin4deg,
   atan24deg,
   acos4deg,
   tan4deg,

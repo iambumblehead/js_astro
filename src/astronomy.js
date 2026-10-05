@@ -1,6 +1,8 @@
 import {
   deg2rad,
-  cos4deg
+  cos4deg,
+  asin4deg,
+  mod360
 } from './math.js'
 
 /*
@@ -508,5 +510,11 @@ function encodeTime(ho, mi){
 export {
   calJD,
   calLST,
-  calOblique
+  calOblique,
+  correctTDT,
+  orbitWork,
+  calNutation,
+  convertGeocentric,
+  convertOrbitalElement,
+  calTimeCoefficient
 }
